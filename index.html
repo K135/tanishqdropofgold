@@ -512,17 +512,17 @@
          <img class="banner-logo" src="images/TanishqLogo.png">
          <img src="images/banner-text.png" class="ban-text wid-100">
          <h2 class="text-color font-2" style="font-weight: 100;">Jewellery is both beauty <br>and investment</h2>
-         <button class="btn btn-primary">Enroll Now</button>
+         <button class="btn btn-primary" id="btn_enroll">Enroll Now</button>
       </div>
       <div class="col-md-6" align="center">
          <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-6">
                <div style="margin-top: 100px;">
-                  <img class="wid-100" src="images/banner-1.jpeg">
+                  <img class="banner_img" src="images/banner-1.jpeg">
                </div>
             </div>
             <div class="col-md-6 col-sm-6 col-xs-6 mt-3">
-               <img class="wid-100" src="images/banner-2.jpeg">
+               <img class="banner_img" src="images/banner-2.jpeg">
             </div>
          </div>
       </div>
@@ -559,22 +559,22 @@
             <div class="hw-img-div">
                <img src="images/hw-1.png" class="hw-img">
             </div>
-            <h2 class="mt-4">Enrol</h2>
-            <p>Enrol and purchase gold coins at 4% making charges.</p>
+            <h2 class="mt-4">Exchange</h2>
+            <p>Exchange gold coins with jewellery of current gold rates.</p>
          </div>
          <div class="col-md-3 hw-main" align="center">
             <div class="hw-img-div">
                <img src="images/hw-1.png" class="hw-img">
             </div>
-            <h2 class="mt-4">Enrol</h2>
-            <p>Enrol and purchase gold coins at 4% making charges.</p>
+            <h2 class="mt-4">Avail</h2>
+            <p>Avail benefits that can be also be clubbed with other offers.</p>
          </div>
          <div class="col-md-3 hw-main" align="center">
             <div class="hw-img-div">
                <img src="images/hw-1.png" class="hw-img">
             </div>
-            <h2 class="mt-4">Enrol</h2>
-            <p>Enrol and purchase gold coins at 4% making charges.</p>
+            <h2 class="mt-4">Redeem</h2>
+            <p>Members can redeem benefits within 100-365 days of enrolling.</p>
          </div>
       </div>
    </div>
@@ -594,7 +594,7 @@
             <label for="">Enter the amount you wish to invest</label>
             <div class="input-group mt-3">
                <div class="input-cal">
-                  <h1 class="price-before" id="before"><span class="currency">د.إ</span>10000</h1>
+                  <h1 class="price-before" ><span class="currency">د.إ</span><input type="text" class="txt_range" id="before" onkeypress ="update_val(this.value)" value="10000"></h1>
                </div>
                <div align="center">
                   <input type="range" class="form-range mt-3" id="disabledRange" onchange="update_val(this.value)" style="width: 300px;" min="10000" max="500000" step="1000">
@@ -606,7 +606,7 @@
          <div class="amount">
             <label for="">What you would had earned if invested last year</label>
             <div>
-               <h1 id="result"><span class="currency">د.إ</span>12390</h1>
+               <h1 id="result"><span class="currency">د.إ</span>12560</h1>
             </div>
          </div>
       </div>
@@ -620,7 +620,7 @@
 </div>
 <div class="brochure primary-padd" style="padding-top: 50px;">
    <div class="container">
-      <h1>Benefits of  Drops of Gold <span style="font-size:18px">(Download Brochure)</span></h1>
+      <h1 align="left">Benefits of  Drops of Gold<span style="font-size:18px;position: absolute;line-height: 45px;"> (Download Brochure)</span></h1>
       <div style="margin-top: 50px;">
          <div class="flex">
             <div>
@@ -5411,9 +5411,10 @@
     
     function update_val(val)
     {
-        $('#before').html('<span class="currency">د.إ</span>'+val);
-        
-        var result= (25.6/100) * val;
+        //$('#before').html('<span class="currency">د.إ</span>'+val);
+        $('#before').val(val);
+
+        var result= parseInt((25.6/100) * val)+parseInt(val);
         
         $('#result').html('<span class="currency">د.إ</span>'+result);
     }
