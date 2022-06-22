@@ -1,0 +1,231 @@
+  body 
+  {
+    font-family: 'Playfair Display';
+    background-color:#f8ece1;
+      
+  }
+  
+  .banner
+  {
+    padding: 14px 0;
+    background:url('images/banner-bg.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+      
+  }
+  
+  .banner-logo
+  {
+    height: auto;
+    margin-bottom:20px;
+  }
+  
+  .btn-primary
+  {
+    background-color:rgb(188, 164, 102);
+    border-color:rgb(188, 164, 102);
+    font-size: 20px;
+    box-shadow: 0px 10px 9px #ac975f;
+    font-weight: 200;
+    padding: 10px 30px;
+      
+  }
+  
+  .primary-padd
+  {
+    padding-bottom: 50px;
+      
+  }
+  
+  .wid-100
+  {
+    width:100%;
+      
+  }
+  
+  .ban-text
+{
+    height: 300px;
+width: auto;
+display: block;
+}
+.mt-3
+{
+    margin-top:30px;
+}
+.abt-img
+{
+    height:500px;
+    margin-top: -59px;
+}
+.text-color
+{
+    color: rgb(78, 63, 48);
+}
+h1
+{
+    color:rgb(73, 57, 42);
+}
+.hw-img-div
+{
+    background-color: rgb(188, 164, 102);
+border-radius: 50%;
+padding: 47px;
+width: fit-content;
+}
+.hw-img
+{
+height:100px;
+}
+.brochure
+{
+    background:url('images/brochure2.png'), linear-gradient(#f8ece1, #f9e4d0);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.faq
+{
+    background:url('images/faq.png');
+    background-color:#f9e4d0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.flex
+{
+    display:flex;
+}
+.diamond
+{
+    height: 65px;
+margin-right: 20px;
+}
+.link
+{
+    color:black;
+}
+.accordion-button
+{
+    background-color: #f4eadd;
+font-size: 14px;
+padding: 20px 10px;
+width: 100%;
+text-align: left;
+}
+
+.font-2
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.accordion-item {
+  border: none;
+  margin-bottom: 20px;
+}
+
+.cal-title
+{
+    text-transform: capitalize;
+}
+.benefits-calculator label, .benefits-calculator .field-text {
+  font-size: 17px;
+}
+
+.benefits-calculator .title {
+
+  margin: 13px 0;
+}
+.result
+{
+    border:none !important;
+}
+.mt-4
+{
+    margin-top:40px;
+}
+p
+{
+      font-size: 16px;
+  line-height: 26px;
+}
+.price-before
+{
+    font-size: 66px;
+color: black;
+padding-bottom: 13px;
+margin-top: 0px;
+}
+.currency
+{
+    font-size: 56px !important;
+margin-right: 16px;
+display: inline-block;
+}
+.input-cal
+{
+    background: #d9d9d9;border-radius: 15px;border: 1px solid gray;
+}
+.hw-main:after
+{
+    content: "";
+    background-color: transparent;
+    position:absolute;
+    width: 0px;
+    left:33px;
+    top:0;
+    bottom: 143px;
+z-index: -1;
+transform: rotate(90deg);
+border: 1px dashed #bca466;
+right: 0;
+}
+
+.benefits-calculator {
+  padding: 33px 75px;
+}
+.benefits-calculator .deposit {
+  text-align: center;
+  margin: 50px 0;
+}
+
+@media screen and (max-width:1000px)
+{
+    .ban-text
+    {
+          width: 100%;
+  height: auto;
+}
+
+.banner
+{
+    background-size: cover;
+}
+.abt-img {
+  margin-top: -7px;
+}
+.hw-main::after {
+   border: 0px dashed #bca466; 
+}
+.benefits-calculator {
+  padding: 26px 15px;
+}
+.hidemob
+{
+    display:none !important;
+}
+.amt
+{
+    border-right: 0px solid #b7b7b7;
+}
+}
+#result
+{
+    font-size: 66px;
+}
+.hidemob
+{
+    display:block;
+}
+.amt
+{
+    border-right: 4px solid #b7b7b7;
+}

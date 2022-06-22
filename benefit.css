@@ -1,0 +1,165 @@
+/*! CSS Used from: https://www.tanishqgoldenharvest.co.in/Online/bootstrap?v=Ci8L45Nh-mehWpblnBUFn_IkHOBvRp9oJCGTYdsIob01 */
+a{background:transparent;}
+a:active,a:hover{outline:0;}
+small{font-size:80%;}
+img{border:0;}
+button,input{margin:0;font:inherit;color:inherit;}
+button{overflow:visible;}
+button{text-transform:none;}
+button{-webkit-appearance:button;cursor:pointer;}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0;}
+input{line-height:normal;}
+@media print{
+*{color:#000!important;text-shadow:none!important;background:transparent!important;box-shadow:none!important;}
+a,a:visited{text-decoration:underline;}
+a[href]:after{content:" (" attr(href) ")";}
+img{page-break-inside:avoid;}
+img{max-width:100%!important;}
+p{orphans:3;widows:3;}
+}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+input,button{font-family:inherit;font-size:inherit;line-height:inherit;}
+a{color:#428bca;text-decoration:none;}
+a:hover,a:focus{color:#2a6496;text-decoration:underline;}
+a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+img{vertical-align:middle;}
+.img-responsive{display:block;max-width:100%;height:auto;}
+h4{font-family:inherit;font-weight:500;line-height:1.1;color:inherit;}
+h4 small{font-weight:normal;line-height:1;color:#999;}
+h4{margin-top:10px;margin-bottom:10px;}
+h4 small{font-size:75%;}
+h4{font-size:18px;}
+p{margin:0 0 10px;}
+small{font-size:85%;}
+.text-center{text-align:center;}
+ul{margin-top:0;margin-bottom:10px;}
+.col-md-4,.col-md-6,.col-md-8{position:relative;min-height:1px;padding-right:15px;padding-left:15px;}
+@media (min-width:992px){
+.col-md-4,.col-md-6,.col-md-8{float:left;}
+.col-md-8{width:66.66666667%;}
+.col-md-6{width:50%;}
+.col-md-4{width:33.33333333%;}
+}
+label{display:inline-block;margin-bottom:5px;font-weight:bold;}
+.form-control{display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.42857143;color:#555;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;}
+.form-control:focus{border-color:#66afe9;outline:0;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);}
+.form-control::-moz-placeholder{color:#999;opacity:1;}
+.form-control:-ms-input-placeholder{color:#999;}
+.form-control::-webkit-input-placeholder{color:#999;}
+.form-control[readonly]{cursor:not-allowed;background-color:#eee;opacity:1;}
+.btn{display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:normal;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:4px;}
+.btn:focus,.btn:active:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+.btn:hover,.btn:focus{color:#333;text-decoration:none;}
+.btn:active{background-image:none;outline:0;-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);box-shadow:inset 0 3px 5px rgba(0,0,0,.125);}
+.btn-success{color:#fff;background-color:#5cb85c;border-color:#4cae4c;}
+.btn-success:hover,.btn-success:focus,.btn-success:active{color:#fff;background-color:#47a447;border-color:#398439;}
+.btn-success:active{background-image:none;}
+.btn-danger{color:#fff;background-color:#d9534f;border-color:#d43f3a;}
+.btn-danger:hover,.btn-danger:focus,.btn-danger:active{color:#fff;background-color:#d2322d;border-color:#ac2925;}
+.btn-danger:active{background-image:none;}
+.glyphicon{position:relative;top:1px;display:inline-block;font-family:'Glyphicons Halflings';font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.glyphicon-plus:before{content:"+";}
+.glyphicon-minus:before{content:"−";}
+.input-group{position:relative;display:table;border-collapse:separate;}
+.input-group .form-control{position:relative;z-index:2;float:left;width:100%;margin-bottom:0;}
+.input-group-btn,.input-group .form-control{display:table-cell;}
+.input-group-btn:not(:first-child):not(:last-child){border-radius:0;}
+.input-group-btn{width:1%;white-space:nowrap;vertical-align:middle;}
+.input-group .form-control:first-child{border-top-right-radius:0;border-bottom-right-radius:0;}
+.input-group-btn:last-child>.btn{border-top-left-radius:0;border-bottom-left-radius:0;}
+.input-group-btn{position:relative;font-size:0;white-space:nowrap;}
+.input-group-btn>.btn{position:relative;}
+.input-group-btn>.btn:hover,.input-group-btn>.btn:focus,.input-group-btn>.btn:active{z-index:2;}
+.input-group-btn:last-child>.btn{margin-left:-1px;}
+.clearfix:before,.clearfix:after{display:table;content:" ";}
+.clearfix:after{clear:both;}
+/*! CSS Used from: https://www.tanishqgoldenharvest.co.in/Content/custom?v=JFB8dZ-BFsTpRawUlXMfqEf1QuQAcvEPsXohiIsiDeU1 */
+.benefits-calculator{background:url(https://www.tanishqgoldenharvest.co.in/Areas/Online/Content/images/_NewImages/bg.jpg) left top no-repeat;background-size:100% 100%;padding:80px;margin-top:0px;position:relative;}
+.benefits-calculator .title{font-size:54px;text-align:center;text-transform:uppercase;line-height:50px;margin:15px 0;}
+.benefits-calculator .title span{text-transform:capitalize;font-size:45px;font-style:italic;}
+.benefits-calculator .locket{position:absolute;left:58px;top:0;width:300px;}
+.benefits-calculator .locket img{margin:0 auto;}
+.benefits-text{font-size:22px;margin-bottom:35px;}
+.benefits-calculator .deposit,.benefits-calculator .benefits{display:table;width:100%;}
+.benefits-calculator .deposit{text-align:center;margin:100px 0;}
+.benefits-calculator label,.benefits-calculator .field-text{font-size:30px;display:block;color:#000;font-weight:normal;}
+.benefits-calculator .form-control{border-radius:0;height:120px;width:330px;background:none;margin:0 auto;border:#b3a46b 2px solid;box-shadow:none;float:none;font-size:66px;text-align:center;color:#000;padding-left:52px;padding-right:52px;}
+.benefits-calculator .input-field{width:330px;margin:0 auto;position:relative;}
+.benefits-calculator .input-field.two input{padding-right:0;}
+.benefits-calculator .input-field span{position:absolute;font-size:66px;color:#000;left:15px;top:15px;}
+.benefits-calculator .deposit .input-group{position:relative;display:inline-block;}
+.benefits-calculator .deposit .input-group .input-group-btn.plus,.benefits-calculator .deposit .input-group .input-group-btn.plus button{position:absolute;top:0;right:0;z-index:99;height:60px;width:60px;background:#7a6a32;border:none;outline:none;}
+.benefits-calculator .deposit .input-group .input-group-btn.minus,.benefits-calculator .deposit .input-group .input-group-btn.minus button{position:absolute;bottom:0;right:0;z-index:99;height:60px;width:60px;background:#c0af78;border:none;outline:none;}
+.benefits h4{font-size:30px;text-transform:uppercase;color:#000;text-align:right;font-style:italic;}
+.benefits h4 small{text-transform:none;color:#000;font-size:30px;}
+.benefits ul{list-style:none;padding:0;margin:0;padding-top:30px;margin-bottom:40px;}
+.benefits ul li{padding-left:40px;}
+.benefits ul li span.list,.benefits ul li span2.lines{position:absolute;left:0;}
+.benefits ul li span.list::before{content:"• ";color:#c0af78;font-size:55px;position:absolute;left:0;top:5px;}
+.benefits ul li span2.lines::after{content:'';position:absolute;background:url(https://www.tanishqgoldenharvest.co.in/Areas/Online/Content/images/_NewImages/dots.svg);height:2px;width:100px;background-repeat:no-repeat;transform:rotate(90deg);left:-40px;top:48px;background-size:cover;}
+.benefits ul li:last-child span2.lines{display:none;}
+.benefits ul li{font-size:20px;margin-bottom:46px;text-transform:uppercase;line-height:24px;position:relative;display:inline-block;}
+.benefits ul li .redem{font-size:42px;color:#7a6a32;font-weight:700;display:inline-block;}
+.blink{-webkit-animation-name:blink;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:cubic-bezier(1,0,0,1);-webkit-animation-duration:2s;}
+@media only screen and (max-width:480px){
+.benefits-text{font-size:16px;line-height:20px;}
+.benefits-calculator .title{font-size:36px;line-height:36px;}
+.benefits-calculator .title span{font-size:40px;}
+.benefits-calculator .locket img{width:80px;}
+.benefits ul li span2.lines::after{left:-42px;top:82px;width:106px;}
+}
+@media only screen and (max-width:767px){
+.benefits-calculator{padding:80px 25px 50px;}
+.benefits h4{font-size:26px;}
+.benefits ul li .redem{font-size:36px;}
+.benefits-calculator .form-control,.benefits-calculator .input-field{height:70px;width:100%;font-size:36px;}
+.benefits-calculator .input-field span{font-size:46px;top:10px;}
+.benefits-calculator .deposit .input-group .input-group-btn.plus,.benefits-calculator .deposit .input-group .input-group-btn.plus button,.benefits-calculator .deposit .input-group .input-group-btn.minus,.benefits-calculator .deposit .input-group .input-group-btn.minus button{height:35px;}
+.benefits-calculator label,.benefits-calculator .field-text{font-size:18px;margin:8px 0;}
+.benefits-calculator .deposit{margin:0;}
+.benefits-text{margin-bottom:0;}
+.benefits h4{text-align:center;}
+.benefits ul li{font-size:16px;margin-bottom:18px;text-transform:uppercase;line-height:26px;position:relative;}
+.benefits ul li .redem{display:block;margin-top:12px;}
+.benefits-calculator .locket{position:absolute;left:18px;top:0;width:100px;}
+.benefits-calculator .title{font-size:36px;line-height:36px;margin-bottom:20px;}
+.benefits-calculator{margin-top:0;}
+.benefits ul li::after{height:4px;width:114px;left:-47px;top:82px;}
+}
+@media only screen and (min-device-width:768px)and (max-device-width:1024px)and (orientation:portrait)and (-webkit-min-device-pixel-ratio:1){
+.benefits h4{text-align:left;margin-bottom:22px;}
+.benefits-calculator label,.benefits-calculator .field-text{margin:12px 0;}
+.benefits-calculator .locket{left:20px;width:200px;}
+.benefits-calculator .deposit{margin:50px 0;}
+.benefits-calculator .locket img{width:150px;}
+.benefits ul li .redem{margin-top:18px;display:inline-block;}
+}
+@media only screen and (min-device-width:768px)and (max-device-width:1024px)and (orientation:landscape)and (-webkit-min-device-pixel-ratio:1){
+.benefits-calculator .locket{left:40px;width:230px;}
+.benefits-calculator{padding:80px 50px;}
+.benefits-calculator .locket img{width:180px;}
+.benefits ul li .redem{margin-top:18px;display:inline-block;}
+.benefits ul li span2.lines::after{top:52px;}
+}
+@media all and (-ms-high-contrast:none){
+.benefits ul li span2.lines{top:30px;}
+}
+/*! CSS Used from: https://www.tanishqgoldenharvest.co.in/Content/aos?v=2GLUVILvq8znFFeNtI0HbGnBgEMCsMC-GaF4qBUQV4E1 */
+[data-aos][data-aos][data-aos-delay='100']{transition-delay:0;}
+body[data-aos-duration='1000'] [data-aos]{transition-duration:1s;}
+[data-aos][data-aos][data-aos-duration='1500']{transition-duration:1.5s;}
+[data-aos][data-aos][data-aos-delay='2000']{transition-delay:0;}
+[data-aos][data-aos][data-aos-delay='2000'].aos-animate{transition-delay:2s;}
+body[data-aos-easing=ease-out-back] [data-aos]{transition-timing-function:cubic-bezier(.175,.885,.32,1.275);}
+[data-aos^=fade][data-aos^=fade]{opacity:0;transition-property:opacity,transform;}
+[data-aos^=fade][data-aos^=fade].aos-animate{opacity:1;transform:translate(0);}
+[data-aos=fade-down]{transform:translateY(-100px);}
+[data-aos=fade-right]{transform:translate(-100px);}
+[data-aos=fade-left]{transform:translate(100px);}
+/*! CSS Used from: https://www.tanishqgoldenharvest.co.in/Content/dashboard?v=MMFwWS5-_ynSfGBiXK6aXEBYsmqDzXCdNac1w3_wmgI1 */
+.ghs-dashboard a{color:#C33D48;}
+/*! CSS Used keyframes */
+@-webkit-keyframes blink{0%{opacity:1;}100%{opacity:0;}}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Glyphicons Halflings';src:url('https://www.tanishqgoldenharvest.co.in/fonts/glyphicons-halflings-regular.eot');src:url('https://www.tanishqgoldenharvest.co.in/fonts/glyphicons-halflings-regular.eot#iefix') format('embedded-opentype'),url('https://www.tanishqgoldenharvest.co.in/fonts/glyphicons-halflings-regular.woff') format('woff'),url('https://www.tanishqgoldenharvest.co.in/fonts/glyphicons-halflings-regular.ttf') format('truetype'),url('https://www.tanishqgoldenharvest.co.in/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');}
