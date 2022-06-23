@@ -1,0 +1,273 @@
+  html,body{overflow-x:hidden!important;}
+  body 
+  {
+    font-family: 'Playfair Display';
+    background-color:#f8ece1;
+      
+  }
+  
+  .banner
+  {
+    padding: 14px 0;
+    background:url('images/banner-bg.jpeg');
+    background-size: 100% 92%;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 9;
+  }
+  
+  .banner-logo
+  {
+    height: auto;
+    margin-bottom:20px;
+  }
+  
+  .btn-primary
+  {
+    background-color:rgb(188, 164, 102);
+    border-color:rgb(188, 164, 102);
+    font-size: 20px;
+    box-shadow: 0px 10px 9px #ac975f;
+    font-weight: 200;
+    padding: 10px 30px;
+      
+  }
+  
+  .primary-padd
+  {
+    padding-bottom: 50px;
+      
+  }
+  
+  .wid-100
+  {
+    width:100%;
+      
+  }
+  
+  .ban-text
+{
+width: 40%;
+display: block;
+}
+.mt-3
+{
+    margin-top:30px;
+}
+.abt-img
+{
+    height:500px;
+    margin-top: -59px;
+}
+.text-color
+{
+    color: rgb(78, 63, 48);
+}
+h1
+{
+    color:rgb(73, 57, 42);
+}
+.hw-img-div
+{
+    background-color: rgb(188, 164, 102);
+border-radius: 50%;
+padding: 47px;
+width: fit-content;
+}
+.hw-img
+{
+height:50px;
+}
+#disabledRange
+{
+  background: #AD8429;
+  border: solid 1px #AD8429;
+  border-radius: 8px;
+  height: 7px;
+  width: 356px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+input[type='range']::-webkit-slider-thumb {
+  width: 6px;
+  -webkit-appearance: none;
+  height: 12px;
+  background: black;
+  border-radius: 2px;
+}
+.txt_range
+{
+  width: 235px;
+  height: 64px;
+  padding-bottom: 19px;
+  border-radius: 5px;
+  border: none;
+  background-color: #d9d9d9;
+  outline: none;
+}
+.banner_img
+{
+  width: 80%;
+}
+#btn_enroll:hover
+{
+  background: #AD8429 !important;
+  border:none !important;
+  transition: all 1s;
+}
+.brochure
+{
+    background:url('img/benift_gold.png'), linear-gradient(#f8ece1, #f9e4d0);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.faq
+{
+    background:url('img/faq.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.flex
+{
+    display:flex;
+}
+.diamond
+{
+    height: 65px;
+margin-right: 20px;
+}
+.link
+{
+    color:black;
+}
+.accordion-button
+{
+    background-color: #f4eadd;
+font-size: 14px;
+padding: 20px 10px;
+width: 100%;
+text-align: left;
+border:none !important;
+}
+
+.font-2
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.accordion-item {
+  border: none;
+  margin-bottom: 20px;
+}
+
+.cal-title
+{
+    text-transform: capitalize;
+}
+.benefits-calculator label, .benefits-calculator .field-text {
+  font-size: 17px;
+}
+
+.benefits-calculator .title {
+
+  margin: 13px 0;
+}
+.result
+{
+    border:none !important;
+}
+.mt-4
+{
+    margin-top:40px;
+}
+.mt-15
+{
+    margin-top:15px;
+}
+p
+{
+      font-size: 16px;
+  line-height: 26px;
+}
+.price-before
+{
+    font-size: 66px;
+color: black;
+margin-top: 0px;
+}
+.currency
+{
+    font-size: 56px !important;
+margin-right: 16px;
+display: inline-block;
+}
+.input-cal
+{
+    background: #d9d9d9;border-radius: 15px;border: 1px solid gray;
+}
+.hw-main:after
+{
+content: "";
+background-color: transparent;
+position: absolute;
+width: 1px;
+left: 0px;
+top: 0;
+bottom: 101px;
+z-index: -1;
+transform: rotate(90deg);
+border: 1px dashed #bca466;
+right: 0;
+}
+
+.benefits-calculator {
+  padding: 33px 75px;
+}
+.benefits-calculator .deposit {
+  text-align: center;
+  margin: 50px 0;
+}
+
+@media screen and (max-width:1000px)
+{
+    .ban-text
+    {
+          width: 100%;
+  height: auto;
+}
+
+.banner
+{
+    background-size: cover;
+}
+.abt-img {
+  margin-top: -7px;
+}
+.hw-main::after {
+   border: 0px dashed #bca466; 
+}
+.benefits-calculator {
+  padding: 26px 15px;
+}
+.hidemob
+{
+    display:none !important;
+}
+.amt
+{
+    border-right: 0px solid #b7b7b7;
+}
+}
+#result
+{
+    font-size: 66px;
+}
+.hidemob
+{
+    display:block;
+}
+.amt
+{
+    border-right: 4px solid #b7b7b7;
+}
