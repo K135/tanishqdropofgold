@@ -12,7 +12,8 @@
     background:url('images/banner-bg.jpeg');
     background-size: 100% 92%;
     background-repeat: no-repeat;
-      
+    position: relative;
+    z-index: 9;
   }
   
   .banner-logo
@@ -46,8 +47,7 @@
   
   .ban-text
 {
-    height: 300px;
-width: auto;
+width: 40%;
 display: block;
 }
 .mt-3
@@ -89,14 +89,22 @@ height:50px;
   transition: background 450ms ease-in;
   -webkit-appearance: none;
 }
+input[type='range']::-webkit-slider-thumb {
+  width: 6px;
+  -webkit-appearance: none;
+  height: 12px;
+  background: black;
+  border-radius: 2px;
+}
 .txt_range
 {
   width: 235px;
   height: 64px;
-  margin-top: 21px;
   padding-bottom: 19px;
   border-radius: 5px;
   border: none;
+  background-color: #d9d9d9;
+  outline: none;
 }
 .banner_img
 {
@@ -105,6 +113,8 @@ height:50px;
 #btn_enroll:hover
 {
   background: #AD8429 !important;
+  border:none !important;
+  transition: all 1s;
 }
 .brochure
 {
@@ -114,8 +124,7 @@ height:50px;
 }
 .faq
 {
-    background:url('img/about.png');
-    background-color:#f9e4d0;
+    background:url('img/faq.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -139,6 +148,7 @@ font-size: 14px;
 padding: 20px 10px;
 width: 100%;
 text-align: left;
+border:none !important;
 }
 
 .font-2
@@ -171,6 +181,10 @@ text-align: left;
 {
     margin-top:40px;
 }
+.mt-15
+{
+    margin-top:15px;
+}
 p
 {
       font-size: 16px;
@@ -180,7 +194,6 @@ p
 {
     font-size: 66px;
 color: black;
-padding-bottom: 13px;
 margin-top: 0px;
 }
 .currency
@@ -195,13 +208,13 @@ display: inline-block;
 }
 .hw-main:after
 {
-    content: "";
-    background-color: transparent;
-    position:absolute;
-    width: 0px;
-    left:33px;
-    top:0;
-    bottom: 143px;
+content: "";
+background-color: transparent;
+position: absolute;
+width: 1px;
+left: 0px;
+top: 0;
+bottom: 101px;
 z-index: -1;
 transform: rotate(90deg);
 border: 1px dashed #bca466;
